@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { roboto } from "@/font";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
