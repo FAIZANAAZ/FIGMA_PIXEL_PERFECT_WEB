@@ -14,7 +14,7 @@ const Footer = () => {
     {/* top div */}
  
  <div className='flex xsm:flex-row flex-col  justify-between items-center '>
- <div className='flex flex-col xsm:flex-row gap-4 xsm:gap-0 w-[287px] xsm:w-auto'>
+ <div className='flex flex-col  gap-4 xsm:gap-0 w-[287px] xsm:w-auto'>
         <p className='leading-[150%] text-[18px] font-semibold'>Subscribe to our newsletter</p>
         <p className='leading-[150%] text-[18px] font-regular'>Lorem ipsum dolor sit amet consectetur.</p>
     </div>

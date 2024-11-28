@@ -1,11 +1,25 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
    <>
    <section >
+
+   <div className="w-full text-center py-[14px] bg-gray-50">
+          <h2 className="text-[20px] xsm:text-[32px] font-bold text-gray-800">
+            This is my Figma Pixel Perfect Website
+          </h2>
+        </div>
+       
+        {/* New Button (See my Figma template) */}
+        <div className="w-full text-center py-[14px] bg-gray-50">
+          <Link href={' https://www.figma.com/proto/nWuvB7l5d4dwFJtZ4TK2hf/Untitled?node-id=168-345'} ><Button className="bg-black text-white hover:bg-gray-600">
+            See my Figma template
+          </Button></Link>
+        </div>
     {/* topdiv */}
     <div className='w-full flex flex-col xsm:flex-row '>
 {/* leftdiv */}
