@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import {coursescategory} from "../../constant/catogory"
-import {Course} from "../../constant/catogory"
+
 
 const COURCESCETOGORY = () => {
   
