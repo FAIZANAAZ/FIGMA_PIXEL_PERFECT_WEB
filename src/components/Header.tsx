@@ -43,7 +43,10 @@ const Header = () => {
         <li><Link href={"/Aboutus"}>About us</Link></li>
         <li><Link href={"/Testimonialus"}>Testimonial</Link></li>
         <li><Link href={"/CourseCatygori"}> Services</Link></li>
-        <li><Link href={"/Archievementus"}> Archievement</Link></li>
+        <li><Link href={"/Archievementus"}> Achievement</Link></li>
+        <li><Link href={"/Courses"}> Courses</Link></li>
+
+        
 
         
 
@@ -80,6 +83,8 @@ const Header = () => {
         <li><Link href={"/Testimonialus"}>Testimonial</Link></li>
         <li><Link href={"/CourseCatygori"}> Services</Link></li>
         <li><Link href={"/Archievementus"}> Archievement</Link></li>
+        <li><Link href={"/Courses"}> Courses</Link></li>
+
 
     </ul>
           </motion.div>
