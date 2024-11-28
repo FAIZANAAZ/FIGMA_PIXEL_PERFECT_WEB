@@ -44,7 +44,7 @@ const Header = () => {
         <li><Link href={"/Testimonialus"}>Testimonial</Link></li>
         <li><Link href={"/CourseCatygori"}> Services</Link></li>
         <li><Link href={"/Archievementus"}> Achievement</Link></li>
-        <li><Link href={"/Courses"}> Courses</Link></li>
+        <li><Link href={"/Coursesus"}> Courses</Link></li>
 
         
 
@@ -58,7 +58,7 @@ const Header = () => {
 
     </div>
 </div>
-<IoMenu size={24} className='xsm:hidden block font-bold' onClick={openmenu}/>
+<IoMenu size={34} className='xsm:hidden mr-3 block font-bold' onClick={openmenu}/>
 
 </div>
         
@@ -69,11 +69,11 @@ const Header = () => {
         {menu && (
           <motion.div
           className={
-            "absolute z-10 top-[60px] right-[2px] flex flex-col space-y-[20px] text-center font-bold  h-[160px] w-[160rpx] bg-black text-white text-[30rpx]  sm:hidden p-4 mt-3 "
+            "absolute z-10 top-[60px] right-[2px] flex flex-col space-y-[20px] text-center font-bold  h-[270px] w-[160rpx] bg-black text-white text-[30rpx]  sm:hidden p-4 mt-3 "
           }
             key="menuu"
             initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "160px", opacity: 0.8 }}
+            animate={{ height: "270px", opacity: 0.8 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
@@ -83,7 +83,7 @@ const Header = () => {
         <li><Link href={"/Testimonialus"}>Testimonial</Link></li>
         <li><Link href={"/CourseCatygori"}> Services</Link></li>
         <li><Link href={"/Archievementus"}> Archievement</Link></li>
-        <li><Link href={"/Courses"}> Courses</Link></li>
+        <li><Link href={"/Coursesus"}> Courses</Link></li>
 
 
     </ul>
