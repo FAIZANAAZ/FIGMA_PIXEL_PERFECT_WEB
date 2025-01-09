@@ -16,7 +16,7 @@ export interface Course {
       category: "Design",
       description: "Learn the principles of UI/UX design with practical examples.",
       price: "$300",
-      image: "/Images/UIUX.png", // Replace with actual image URL
+      image: "/images/UIUX.png", // Replace with actual image URL
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export interface Course {
       description: "A beginner's guide to Python programming.",
       price: "$400",
       
-      image: "/Images/python.png", // Replace with actual image URL
+      image: "/images/python.png", // Replace with actual image URL
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ export interface Course {
       description: "Master the basics of data analysis for business success.",
       price: "$700",
       
-      image: "/Images/data-analys.png", // Replace with actual image URL
+      image: "/images/data-analys.png", // Replace with actual image URL
     },
     {
       id: 4,
@@ -43,7 +43,7 @@ export interface Course {
       description: "Develop your artistic skills and explore your creativity.",
       price: "$400",
       
-      image: "/Images/art.png", // Replace with actual image URL
+      image: "/images/art.png", // Replace with actual image URL
     },
     {
       id: 5,
@@ -52,7 +52,7 @@ export interface Course {
       description: "Understand the fundamentals of the legal system.",
       price: "$500",
       
-      image: "/Images/law.png", // Replace with actual image URL
+      image: "/images/law.png", // Replace with actual image URL
     },
     {
       id: 6,
@@ -61,7 +61,7 @@ export interface Course {
       description: "Learn how to build responsive websites using Webflow.",
       price: "$800",
       
-      image: "/Images/webflow.png", // Replace with actual image URL
+      image: "/images/webflow.png", // Replace with actual image URL
     },
   ];
   

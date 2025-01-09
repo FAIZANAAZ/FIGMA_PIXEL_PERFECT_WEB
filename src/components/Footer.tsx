@@ -32,7 +32,7 @@ const Footer = () => {
  {/* mid div */}
  <div className=' flex w-full xsm:flex-row flex-col text-center gap-10'>
 <div className='xsm:w-[250px] h-[40px] inline-block xsm:block m-auto xsm:m-0'>
-    <Image src="/Images/logo.png" alt="image" width={130} height={100} ></Image>
+    <Image src="/images/logo.png" alt="image" width={130} height={100} ></Image>
 </div>
 
 {footerdata.map((items) => (
